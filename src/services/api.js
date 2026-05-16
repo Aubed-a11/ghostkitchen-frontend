@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const api = axios.create({ baseURL: '/api' })
+const api = axios.create({ baseURL: 'http://76.13.37.17:8085/api' })
 
 api.interceptors.request.use(cfg => {
   const token = localStorage.getItem('gk_token')
