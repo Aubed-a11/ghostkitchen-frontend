@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const api = axios.create({ baseURL: 'https://princeton-leather-contain-generated.trycloudflare.com/api' })
+const api = axios.create({ baseURL: 'https://benz-carlo-pressed-working.trycloudflare.com/api' })
 
 api.interceptors.request.use(cfg => {
   const token = localStorage.getItem('gk_token')
